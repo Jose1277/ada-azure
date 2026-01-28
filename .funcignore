@@ -1,0 +1,28 @@
+# Git files
+.git
+.gitignore
+
+# Development files
+*.md
+.vscode
+.idea
+local.settings.json
+
+# Serverless Framework files (not needed for direct Azure deployment)
+serverless.yml
+.serverless
+
+# Test files
+test
+tests
+*.test.js
+*.spec.js
+
+# TypeScript source (if using compiled JS)
+*.ts
+!*.d.ts
+
+# Other
+.env.local
+.env.development
+.funcignore
